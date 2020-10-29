@@ -1,0 +1,5 @@
+node_modules
+constants.js
+service_key.json
+
+downloads/**/*
