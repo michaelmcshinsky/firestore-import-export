@@ -1,8 +1,8 @@
-# Firestore Import Export
+# 🔥 Firestore Import Export 🔥
 
-A minimal toolkit for importing and exporting firestore data as JSON files.
+A minimal toolkit for seeding, importing, and exporting firestore data as JSON files.
 
-**WARNING**
+#### **WARNING**
 Any read or write to firebase's services count against your free or paid tier limit. You probably will not hit anywhere near your limits during tests, but be sure to test with small data sets before committing to a full data import or export based on your desired data content needs and size.
 
 ## Installation
