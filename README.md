@@ -1,5 +1,7 @@
 # 🔥 Firestore Import Export 🔥
 
+![](https://img.shields.io/github/license/michaelmcshinsky/firestore-import-export)
+
 A minimal toolkit for seeding, importing, and exporting firestore data as JSON files.
 
 #### **WARNING**
@@ -64,3 +66,11 @@ Passing arguments after `yarn download` will skip querying for all firestore col
 ````
 yarn download <collectionName1> <collectionName2>
 ````
+
+## License
+
+[MIT Licensed](https://github.com/donavon/use-persisted-state/blob/develop/LICENSE)
+
+## Contributors
+
+[Michael McShinsky](https://github.com/michaelmcshinsky)

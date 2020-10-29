@@ -7,7 +7,7 @@
     "upload": "node ./upload.js"
   },
   "author": "Michael McShinsky",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "firebase": "^6.6.2",
     "firebase-admin": "^8.9.2"
