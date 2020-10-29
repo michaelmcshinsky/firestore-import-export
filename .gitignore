@@ -3,3 +3,4 @@ constants.js
 service_key.json
 
 downloads/**/*
+!downloads/examples.json
