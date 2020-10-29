@@ -51,6 +51,6 @@ To run the exporter, do the following:
 
 1. `yarn download`
 
-**NOTE:** Running `yarn download` with export every collection in your firestore.
+**NOTE:** Running `yarn download` will export every collection in your firestore.
 
 If you wish to export specific collections, modify `download.js` to take an array of names instead of querying the firstore for all collections.
