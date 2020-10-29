@@ -1,7 +1,5 @@
 # 🔥 Firestore Import Export 🔥
 
-![](https://img.shields.io/github/license/michaelmcshinsky/firestore-import-export)
-
 A minimal toolkit for seeding, importing, and exporting firestore data as JSON files.
 
 #### **WARNING**
