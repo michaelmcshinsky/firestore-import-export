@@ -5,6 +5,8 @@ const fs = require('fs');
 const constants = require('./constants');
 const serviceKey = require('./service_key.json');
 
+const args = process.argv.slice(2);
+
 admin.initializeApp({
   credential: admin.credential.cert(serviceKey),
   databaseURL: constants.databaseUrl,
@@ -13,7 +15,15 @@ admin.initializeApp({
 const firestore = admin.firestore();
 
 async function exportCollections() {
-  const collections = await firestore.listCollections();
+  let collections = [];
+
+  if (args.length > 0) {
+    collections = args.map((name) => ({
+      path: name,
+    }));
+  } else {
+    collections = await firestore.listCollections();
+  }
 
   collections.forEach(async (collection) => {
     const { path: name } = collection;
