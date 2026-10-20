@@ -1,3 +1,7 @@
+> **Archived**
+>
+> This repository is no longer maintained. It is kept for historical reference.
+
 # 🔥 Firestore Import Export 🔥
 
 A minimal toolkit for seeding, importing, and exporting firestore data as JSON files.
